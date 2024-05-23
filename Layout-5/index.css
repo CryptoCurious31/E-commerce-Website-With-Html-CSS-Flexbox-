@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body  {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.website {
+    background-color: #2FBC9D;
+    padding: 80px;
+    text-align: center;
+}
+
+header {
+    background-color: #000;
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px 15px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+header nav ul li:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    flex: 25%;
+    max-width: 25%;
+    background-color: #F1F1F1;
+}
+
+.about-me h4 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.about-me p {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.about-me h6 {
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.box {
+    padding: 20px;
+    background-color: #AAAAAA;
+    margin: 10px;
+}
